@@ -64,7 +64,7 @@ nav a:first-child {
 .footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 960px;
   height: 30px; /* Set the fixed height of the footer here */
   line-height: 30px; /* Vertically center the text there */
   padding: 20px 0;
