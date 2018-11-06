@@ -18,6 +18,14 @@ body {
   margin: none;
 }
 
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+  padding: 0;
+}
+
 /* ====================header =================*/
 h5 {
   float: left;
@@ -51,16 +59,8 @@ nav a {
 nav a:first-child {
   border-left: 0 none;
 }
-
-
 /* ===================Sticky footer styles============================== */
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  margin-bottom: 60px; /*Margin bottom by footer height*/
-}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -76,13 +76,7 @@ body {
   border-top: 5px solid #4aaaa5;
 }
 
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
-  padding: 0;
-}
+
 
 /*======================== About me page =======================*/
 h6 {
@@ -112,7 +106,6 @@ h6 {
   background: #4aaaa5;
   border-bottom: 0;
 }
-
 /* ======================================================= */
 /* ==================screen resolution==================== */
 
@@ -138,4 +131,3 @@ h6 {
     width: 100%;
   }
 }
-
