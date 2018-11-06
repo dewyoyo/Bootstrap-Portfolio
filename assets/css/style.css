@@ -2,7 +2,7 @@
 html {
   font-size: 14px;
 }
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   html {
     font-size: 16px;
   }
@@ -19,17 +19,6 @@ body {
 }
 
 /* ====================header =================*/
-.d-flex {
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  margin-top: 0;
-  overflow: auto;
-  color: #ffffff;
-  background: #ffffff;
-  border-bottom: 2px solid #cccccc;
-}
-
 h5 {
   float: left;
   width: 250px;
@@ -63,21 +52,6 @@ nav a:first-child {
   border-left: 0 none;
 }
 
-/* ===================Body Main===================== */
-.main-section{
-  padding-top: 50px;
-}
-.p-5{
-  padding: top 250px;
-}
-h6 {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #4aaaa5;
-  font-size: 30px;
-}
-
-
 
 /* ===================Sticky footer styles============================== */
 html {
@@ -110,44 +84,18 @@ body {
   padding: 0;
 }
 
+/*======================== About me page =======================*/
+h6 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+  font-size: 30px;
+}
+
 /*======================== contact page =======================*/
 
-#contact-form ul {
+#contact-form {
   margin-bottom: 20px;
-}
-
-#contact-form li {
-  margin-bottom: 10px;
-}
-
-label,
-input[type=text],
-input[type=email],
-textarea {
-  display: block;
-  width: 100%;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #dddddd;
-}
-
-textarea {
-  height: 200px;
-}
-
-input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #ffffff;
-  cursor: pointer;
-  background: #4aaaa5;
-  border: 0 none;
 }
 
 /*======================== Portfolio page =======================*/
